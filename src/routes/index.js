@@ -1,0 +1,13 @@
+import express from "express";
+import authRoutes from "./auth.route.js";
+import paymentRoutes from "./payment.route.js";
+import transactionRoutes from "./transaction.route.js";
+import schoolRoutes from "./school.route.js";
+import webhookRoutes from "./paymentWebhook.route.js";
+const router = express.Router();
+router.use("/auth", authRoutes);
+router.use("/payment", paymentRoutes);
+router.use("/transaction", transactionRoutes);
+router.use("/school", schoolRoutes);
+router.use("/webhook", webhookRoutes);
+export default router;
