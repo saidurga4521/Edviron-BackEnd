@@ -1,5 +1,10 @@
 # PaySphere-Server
 
+### API Documentation (Postman)
+
+You can explore and test all APIs using the Postman workspace link below:
+
+👉 [Open Postman Collection](https://moonlightcodes-2816229.postman.co/workspace/My-Workspace~e7b02d05-2409-4ecf-80f3-b9a8aef297a4/request/31077336-aeac04e6-aab5-4000-b43e-3023dd4571d7?tab=body)
 
 ### Key Features:
 ```
